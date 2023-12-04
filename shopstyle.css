@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Circular Std Book;
+    src: url(/assets/fonts/Circular\ Std\ Book.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -236,4 +240,16 @@ width: 150px;
 .bg-third-portion-text span{
     font: 16px;
     color: #374151;
+}
+.langkah-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.langkah-1-text,.langkah-2-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
