@@ -1,0 +1,32 @@
+
+ @media (max-width:1024px){    
+        .navbar{
+            display: none;
+        }
+    }
+    @media (max-width:320px){ 
+        .logo img{
+            width: 102px;
+            height: 40px;
+        }
+    }
+  @media (max-width:1023px){
+.navbar{
+    display: flex;
+    flex-direction: column;
+        text-align: center;
+        width: 828px;
+        height: 254px;
+        margin: auto;
+}
+    .navbar ul{
+        margin: auto;
+        flex-direction: column;
+    }
+    .button{
+        flex-direction: column;
+    }
+    .icon{
+        display: block;
+    }
+  }
