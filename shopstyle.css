@@ -1,4 +1,4 @@
-@font-face {
+  @font-face {
   font-family: Circular Std Book;
   src: url(/assets/fonts/Circular\ Std\ Book.ttf);
 }
@@ -7,13 +7,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: Circular Std Book;
 }
-.blue-bg-nav{
-    width: 100%;
-    position: fixed;
-    top: 0;
+.blue-bg-nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 .navigation-bar {
   background: rgb(49 27 146);
@@ -27,26 +27,28 @@ body{
 ul li {
   list-style-type: none;
 }
-.dropdown-flex-row{
+.icon {
   display: none;
 }
-.icon{
-  display: none;
+.dropdown-content li{
+  padding: 0px;
 }
-.navbar{
+.dropdown-content li a{
+  padding: 10px;
+}
+.navbar {
   display: flex;
   align-items: center;
   font-size: 14px;
   cursor: pointer;
   flex-wrap: wrap;
-  flex-direction: row;
   font-family: Circular Std Book;
 }
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
-.flex-row li {
+.list-padding{
   padding: 12px;
 }
 .button {
@@ -78,33 +80,34 @@ ul li {
   color: rgb(49 27 146);
 }
 .dropdown{
+  padding: 12px;
   position: relative;
   display: inline-block;
 }
-.dropdown:hover .dropdown-flex-row {
+.dropdown:hover .dropdown-content{
   display: block;
-  border-radius: 10px;
-  /* width: 150px; */
 }
-.dropdown-flex-row {
+.dropdown-content {
   display: none;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  background-color: aliceblue;
-  color: black;
   position: absolute;
-  right: 8px;
+  background-color: #ffffff;
+  min-width: 150px;
+  border-radius: 10px;
+  top: 37px;
+  right: -7px;
 }
-.dropdown-flex-row a {
+.dropdown-content a {
   color: black;
-  padding: 5px 5px;
+  padding: 12px 16px;
   text-decoration: none;
+  display: block;
 }
-.button-data{
-    display: flex;
-    gap: 0.75rem;
-    margin: 36px 0px 0px;
+.button-data {
+  display: flex;
+  gap: 0.75rem;
+  margin: 36px 0px 0px;
 }
-.dropdown-flex-row a:hover {
+.dropdown-content a:hover {
   background-color: rgb(223, 218, 218);
 }
 .button:hover .demo {
@@ -117,37 +120,35 @@ ul li {
   background: rgb(49 27 146);
   width: 100%;
 }
-.bg-blue-container{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.bg-blue-container {
+  width: 100%;
+  overflow: auto;
 }
 .bg-blue {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 145px 0px 50px;
+  flex-wrap: wrap;
 }
-.bg-blue img{
-    padding: 0 15px;
+.bg-blue img {
+  padding: 0 15px;
 }
 .tempat {
   display: flex;
-flex-direction: column;
-width: 435px;
+  flex-direction: column;
+  width: 435px;
 }
 .tempat h1 {
-    line-height: 3.8rem;
+  line-height: 3.8rem;
   color: #aae900;
   font-size: 3.1rem;
   font-family: Circular Std Book;
   margin-bottom: 1rem;
 }
-.white-text{
-    color: white;
-    font-family: Circular Std Book;
+.white-text {
+  color: white;
+  font-family: Circular Std Book;
 }
 .demo-schedule {
   font-size: 1rem;
@@ -158,7 +159,7 @@ width: 435px;
   border-radius: 5px;
   font-family: Circular Std Book;
   width: 240px;
-    height: 50px;
+  height: 50px;
 }
 .from-now {
   font-size: 1rem;
@@ -272,7 +273,6 @@ width: 435px;
   align-items: center;
   flex-direction: column;
 }
-.langkah-1-text,
 .langkah-2-text {
   display: flex;
   justify-content: center;
