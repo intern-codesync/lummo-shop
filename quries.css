@@ -1,8 +1,35 @@
+@media (min-width:1400px){    
+    .tempat {
+        width: 615px;
+    }
+    .bg-blue img{
+        width: 518px;
+    }
+    
+    .navigation-bar{
+        max-width: 1140px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media (max-width:1280px){    
+    .navigation-bar{
+        margin: 0px 5px;
+    }
+}
+@media (min-width:1200px){
+.bg-blue{
 
- @media (max-width:1024px){    
-        .navbar{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+}
+@media (max-width:1024px){    
+    .navbar{
             display: none;
         }
+  
     }
   @media (max-width:1023px){
 /* .navbar{
