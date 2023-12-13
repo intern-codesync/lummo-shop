@@ -11,15 +11,55 @@
         margin-right: auto;
         margin-left: auto;
     }
+    .container-2{
+        max-width: 1320px;
+        }
+        .text{
+            margin: 0px 257px 80px;
+            max-width: 775px;
+        }
+        .toko-online img{
+            width: 602px;
+        }
+        .toko-online h3{
+            width: 519px;
+        }
+        .produk text{
+            margin: 0px 257px 80px;
+            max-width: 775px;
+        }
+        .produk img{
+            width: 602px;
+        }
+        .produk h3{
+            width: 519px;
+        }
 }
-@media (max-width:1280px){    
-    .navigation-bar{
+@media (min-width: 768px){
+    .text h1{
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+    
+}
+@media (min-width:1280px){    
+    /* .navigation-bar{
         margin: 0px 5px;
+    } */
+    .container-2{
+        /* margin: 0px 70px;
+        padding: 65px 15px; */
+    }
+    .text{
+        max-width: 775px;
     }
 }
 @media (min-width:1200px){
-.bg-blue{
-
+.container-2{
+    /* max-width: 1140px;
+    margin: 0px 167px 80px */
+}
+    .bg-blue{
     margin-right: auto;
     margin-left: auto;
     max-width: 1140px;
@@ -99,10 +139,45 @@
 }
   }
   @media (max-width:320px){
+    .navigation-bar{
+        max-width: 320px;
+    }
     .tempat h1{
         width: 290px;
         padding: 0px 15px;
             font-size: 2.3rem;
     }
-}
+    .tempat span{
+        width: 290px;
+    }
+    .button-data{
+        width: 290px;
+    }
+    .demo{
+        font-size: .8rem;
+
+    }
+    .from-now{
+        font-size: .8rem;     
+    }
+    .bg-blue{
+        flex-direction: unset;
+    }
+    .bg-blue img {
+        width: 290px;
+        height: 256px;
+    }
+    .toko-online{
+        flex-direction: column;
+    }
+    .toko-online img{
+        width: 290px;
+    }
+    .produk img{
+        width: 290px;
+    }
+    .produk{
+        flex-direction: column;
+    }
   }
+}

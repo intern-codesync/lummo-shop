@@ -10,31 +10,32 @@
 body {
   font-family: Circular Std Book;
 }
+#web{
+overflow: auto;
+}
 .blue-bg-nav {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 2;
+  background-color: rgb(49 27 146);
+
 }
 .navigation-bar {
-  background: rgb(49 27 146);
+  /* background: rgb(49 27 146); */
   color: white;
   padding: 16px 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  /* margin: 0px 40px; */
 }
 ul li {
   list-style-type: none;
 }
 .icon {
   display: none;
-}
-.dropdown-content li{
-  padding: 0px;
-}
-.dropdown-content li a{
-  padding: 10px;
 }
 .navbar {
   display: flex;
@@ -92,7 +93,7 @@ ul li {
   position: absolute;
   background-color: #ffffff;
   min-width: 150px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   top: 37px;
   right: -7px;
 }
@@ -163,6 +164,7 @@ ul li {
   height: 50px;
 }
 .from-now {
+  z-index: 1;
   font-size: 1rem;
   padding: 12px 30px;
   color: #311b92;
@@ -171,8 +173,8 @@ ul li {
   border-radius: 5px;
   position: relative;
   font-family: Circular Std Book;
-  width: 154px;
-  height: 50px;
+  /* width: 154px;
+  height: 50px; */
 }
 .from-now::after {
   content: "Gratis";
@@ -184,9 +186,13 @@ ul li {
   bottom: 35px;
 }
 .container-2 {
-  max-width: 960px;
-  margin: 0px 69px;
-  padding: 64px 15px;
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 .text {
   margin: 0px 77.5px 80px;
@@ -204,15 +210,16 @@ ul li {
   font-family: Circular Std Book;
 }
 .toko-online {
-  padding: 0px 48px;
+  /* padding: 0px 48px; */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   margin: 0px 0px 40px;
 }
 .toko-online img {
   width: 435px;
   height: 328;
+  padding: 0 15px;
 }
 .toko-online h3 {
   font-size: 30px;
@@ -224,9 +231,15 @@ ul li {
   color: #374151;
   font-family: Circular Std Book;
 }
+.toko-online-text{
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 .produk {
+  flex-direction: row-reverse;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   margin: 0px 0px 40px;
 }
@@ -244,6 +257,7 @@ ul li {
   height: 328;
 }
 .produk-text {
+  width: 100%;
   padding: 0px 48px;
 }
 .bg-third-portion {
@@ -251,9 +265,9 @@ ul li {
   padding-bottom: 100px;
 }
 .container-3 {
-  max-width: 960px;
-  margin: 0px 68px;
-  padding: 0px 15px;
+   /* max-width: 960px; */
+  margin: 0px 433px;
+  padding: 0px 15px; 
 }
 .bg-third-portion-text {
   margin: 0px 77.5px 80px;
@@ -272,6 +286,16 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.langkah-container-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.langkah-inner-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 .langkah-2-text {
@@ -279,4 +303,28 @@ ul li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.langkah-2-inner-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.langkah-3-inner-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.langkah-4-inner-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bg-blue-cards{
+  background-color: rgb(49 27 146);
+  padding-top: 70px;
+    padding-bottom: 70px;
 }
