@@ -1,19 +1,21 @@
-@media (min-width:1400px){    
+@media (max-width:1400px){    
     .tempat {
-        width: 615px;
+        width: 50%;
+    padding: 0px 15px;
     }
-    .bg-blue img{
-        width: 518px;
+    .first-image{
+        width: 50%;
     }
-    
-    .navigation-bar{
-        max-width: 1140px;
-        margin-right: auto;
-        margin-left: auto;
+.bg-blue-container{
+    max-width: 1320px;
+}    
+.navigation-bar{
+    max-width: 1320px;
+
     }
-    .container-2{
+    /* .container-2{
         max-width: 1320px;
-        }
+    }
         .text{
             margin: 0px 257px 80px;
             max-width: 775px;
@@ -33,63 +35,132 @@
         }
         .produk h3{
             width: 519px;
+        } */
+}
+@media (max-width:1024px){    
+    .bg-blue-container{
+        max-width: 930px;
+    }
+    @media (max-width:992px){  
+        .logo img{
+            width: 102px;
+        }  
+        .tempat h1{
+            font-size: 37px;
         }
-}
-@media (min-width: 768px){
-    .text h1{
-        font-size: 2.25rem;
-        line-height: 2.5rem;
+
+        .bg-blue-container{
+            max-width: 930px;
+        }
+        .navbar{
+             display: none;
+         }  
+         .icon{
+            display: block; 
+        }
     }
-    
-}
-@media (min-width:1280px){    
-    /* .navigation-bar{
-        margin: 0px 5px;
-    } */
-    .container-2{
-        /* margin: 0px 70px;
-        padding: 65px 15px; */
+    .button-data{
+        flex-direction: column;
     }
+    .from-now{
+        width: 37%;
+    }
+}
+@media (max-width: 768px){
+    .bg-blue-container{
+        max-width: 540px;
+    }
+    .button-data{
+        flex-direction: row;
+    }
+    .bg-blue{
+        gap: 8rem;
+        flex-direction: column;
+    }
+    .tempat{
+        width: 100%;
+    }
+    .first-image{
+        width: 100%;
+    }
+}
+@media (max-width: 576px){
+    .bg-blue-container{
+        max-width: 510px;
+    }
+    .bg-blue{
+        gap: 2rem;
+    }
+    .demo{
+        font-size: .8rem;
+        padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    }
+    .from-now{
+        font-size: .8rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+}
+/* @media (max-width:1280px){    
     .text{
         max-width: 775px;
+        text-align: center;
+        margin-bottom: 5rem;
+        margin-left: auto;
+        margin-right: auto;
     }
-}
-@media (min-width:1200px){
+    
+    .toko-online{
+        justify-content: center;
+    }
+    .toko-online-text{
+        width: 525px;
+    }
+    .produk-text{
+        width: 525px;
+    }
+    .produk{
+            justify-content: center;        
+    } */
+/* } @media (min-width:1200px){
 .container-2{
-    /* max-width: 1140px;
-    margin: 0px 167px 80px */
+     max-width: 1140px;
+}
+.produk{
+    justify-content: center;
+}
+.toko-online{
+    justify-content: center;
 }
     .bg-blue{
     margin-right: auto;
     margin-left: auto;
     max-width: 1140px;
 }
-}
-@media (max-width:1024px){    
-    .navbar{
-            display: none;
-        }
-  
-    }
-  @media (max-width:1023px){
+} */
+  @media (max-width:1024px){
 /* .navbar{
     display: flex;
     flex-direction: column;
         text-align: center;
         width: 828px;
         height: 254px;
-        margin: auto;
+        margin: auto; 
 }
     .navbar ul{
         margin: auto;
         flex-direction: column;
-    }
-    .button{
+    } */
+    /* .button{
         flex-direction: column;
     } */
-    .icon{
-        display: block;
-    }
+
+    /* }
     .logo img{
         width: 102px;
         height: 40px;
@@ -97,17 +168,13 @@
   .bg-blue img{
     width: 435px;
     height: 385px ;
-  }
-  /* .tempat{
-    height: 574px;
-    width: 345px;
-} */
+  } 
+
 .bg-blue-container{
     width: 100%;
-    padding: 0px 15px;
+    padding: 0px 15px; 
 }
-  }
-  @media (max-width:992px){
+  /* @media (max-width:992px){
     .tempat h1{
         width: 350px;
     font-size: 2.3rem;
@@ -127,7 +194,10 @@
         width: 100%;
         padding: 0px 15px;    
     }
-.bg-blue{
+    .container-2{
+        margin: 0px 50px; */
+    /* } */
+/* .bg-blue{
     gap: 120px;
     flex-direction: column;
 }
@@ -138,9 +208,28 @@
     width: 480px;
 }
   }
-  @media (max-width:320px){
+  @media (max-width:768px){
     .navigation-bar{
         max-width: 320px;
+    }
+    .demo-schedule{
+        width: 169px;
+        height: 37px;
+        font-size: 12.8px;
+        padding: 0px 12px;
+    }
+    .bg-blue{
+        flex-direction: column;
+    }
+    .bg-blue img{
+        width: 290px;
+        height: 256px;
+    }
+    .from-now{
+        width: 100px;
+        height: 37px;
+        font-size: 12.8px;
+        padding: 0px 12px;
     }
     .tempat h1{
         width: 290px;
@@ -180,4 +269,31 @@
         flex-direction: column;
     }
   }
+} */
+
+
+/* @media (max-width: 576px) {
+    .tempat{
+        width: 480px;
+    }
+    .bg-blue img{
+        width: 480px;
+    }
+    .bg-blue{
+        gap: 2rem;
+    }
+
 }
+@media (min-width: 768px) {
+    .toko-online{
+        flex-direction: column;
+    }
+    .bg-blue-container{
+        max-width: 720px;
+    }
+    .bg-blue img{
+        width: 315px;
+  height: 280px;
+    }
+    
+} *
