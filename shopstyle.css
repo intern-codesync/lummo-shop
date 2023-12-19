@@ -18,11 +18,13 @@ body {
   background-color: rgb(49 27 146);
   /* background-color: red; */
 }
+
 img{
   max-width: 100%;
   height: auto;
 }
 .navigation-bar {
+  max-width: 1270px;
   color: white;
   padding: 16px 32px;
   display: flex;
@@ -122,6 +124,7 @@ ul li {
   width: 100%;
 }
 .bg-blue-container {
+  max-width: 1270px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -160,7 +163,7 @@ ul li {
 }
 .demo-schedule {
   font-size: 1rem;
-  padding: 12px 30px;
+  padding: 16px 30px;
   color: #311b92;
   background-color: #ffffff;
   border: 0px solid;
@@ -190,6 +193,7 @@ ul li {
   bottom: 35px;
 }
 .container-2 {
+  max-width: 1270px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -199,7 +203,7 @@ ul li {
   padding-bottom: 4rem;
 }
 .text {
-  margin: 0px 77.5px 80px;
+  margin: 0px 257px 80px;
   text-align: center;
 }
 .text h1 {
@@ -214,15 +218,20 @@ ul li {
   font-family: Circular Std Book;
 }
 .toko-online {
+  width: 100%;
   /* padding: 0px 48px; */
   display: flex;
   /* justify-content: center; */
   align-items: center;
   margin: 0px 0px 40px;
 }
-.toko-online img {
-  width: 435px;
-  height: 328;
+.toko-online-text{
+  width: 50%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.toko-online-image {
+  width: 50%;
   padding: 0 15px;
 }
 .toko-online h3 {
@@ -235,17 +244,20 @@ ul li {
   color: #374151;
   font-family: Circular Std Book;
 }
-.toko-online-text {
-  width: 100%;
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
 .produk {
+  width: 100%;
   flex-direction: row-reverse;
   display: flex;
   /* justify-content: center; */
   align-items: center;
   margin: 0px 0px 40px;
+}
+.produk-text {
+  width: 50%;
+  padding: 0px 48px;
+}
+.produk-image{
+  width: 50%;
 }
 .produk h3 {
   color: #374151;
@@ -255,14 +267,6 @@ ul li {
 .produk span {
   color: #374151;
   font-size: 16px;
-}
-.produk img {
-  width: 435px;
-  height: 328;
-}
-.produk-text {
-  width: 100%;
-  padding: 0px 48px;
 }
 .bg-third-portion {
   padding-top: 100px;
