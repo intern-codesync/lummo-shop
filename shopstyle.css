@@ -2,7 +2,7 @@
   font-family: Circular Std Book;
   src: url(/assets/fonts/Circular\ Std\ Book.ttf);
 }
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,7 +16,6 @@ body {
   top: 0;
   z-index: 2;
   background-color: rgb(49 27 146);
-  /* background-color: red; */
 }
 img {
   max-width: 100%;
@@ -36,6 +35,9 @@ ul li {
   list-style-type: none;
 }
 .icon {
+  color: #9da0a5;
+  width: 18px;
+  height: 14px;
   display: none;
 }
 
@@ -287,73 +289,42 @@ ul li {
   font: 16px;
   color: #374151;
 }
-.langkah-container {
+.langkah-container, .langkah-container-2 {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.langkah-1-text {
+.langkah-1-text, .langkah-2-text{
   color: #374151;
   max-width: 500px;
   display: flex;
   text-align: center;
   flex-direction: column;
 }
-.langkah-container-2 {
+.langkah-3-text, .langkah-4-text {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #374151;
+  max-width: 500px;
+  text-align: center;
+  flex-direction: column;
 }
 .span-data {
   margin: 0px 0px 12px;
   font-size: 30px;
 }
-.langkah-inner-data {
+.langkah-inner-data, .langkah-2-inner-data {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  padding: 0px 15px;
+}
+.langkah-3-inner-data, .langkah-4-inner-data {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.langkah-2-text {
-  color: #374151;
-  max-width: 500px;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.langkah-2-inner-data {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 50%;
-}
-.langkah-3-inner-data {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.langkah-3-text,
-.langkah-4-text {
-  display: flex;
-  color: #374151;
-  max-width: 500px;
-  text-align: center;
-  flex-direction: column;
-}
-.langkah-4-inner-data {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 50%;
-}
-
 .bg-blue-cards {
   background-color: rgb(49 27 146);
   padding-top: 70px;

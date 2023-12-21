@@ -55,21 +55,14 @@
 
   #nav-bar {
     position: absolute;
-    /* top: -100px; */
   }
   #nav-bar:checked,.icon {
     display: block;
-    /* flex-direction: column; */
-  }
-  .nav-toggle span:after {
-    content: "<i class=" fa-solid fa-bars "></i>";
   }
   #nav-bar:checked ~ .navbar {
-    display: flex!important;
+    display: block;
   }
-  .navbar{
-    display: none!important;
-  }
+
   .navigation-bar {
     display: block;
   }
@@ -105,25 +98,20 @@
   }
 }
 @media (max-width: 992px) {
-  .icon {
-    display: block;
-  }
+
   .logo img {
     width: 102px;
   }
-
-  .tempat {
+  .navbar{
+    display: none;
+  }
+  .tempat, .first-image {
     width: 48%;
   }
 
   .tempat h1 {
     font-size: 37px;
   }
-
-  .first-image {
-    width: 48%;
-  }
-
   .bg-blue-container {
     max-width: 930px;
   }
@@ -191,22 +179,13 @@
     gap: 2rem;
   }
 
-  .demo-schedule {
+  .demo-schedule, .from-now {
     font-size: 0.8rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
-  }
-
-  .from-now {
-    font-size: 0.8rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
+  }   
   .from-now::after {
     right: -20px;
     bottom: 25px;
