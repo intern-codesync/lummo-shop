@@ -14,66 +14,105 @@
   .container-2 {
     max-width: 1320px;
   }
+
+  .langkah-1-img,
+  .langkah-2-img {
+    max-width: 370px;
+  }
+  .langkah-3-img,
+  .langkah-4-img {
+    max-width: 370px;
+  }
 }
+
 @media (max-width: 1024px) {
   .bg-blue-container {
     max-width: 960px;
   }
-   .container-2{
+  .container-2 {
     max-width: 960px;
   }
-  .text{
+  .text,
+  .bg-third-portion-text {
     margin: 0px 77.5px 80px;
   }
-} 
-@media (max-width: 991px) {
-              .navbar{
-        display: none;
-      }
-}    #nav-bar{
-    position: absolute;
-    /* display: none; */
+  .container-3 {
+    max-width: 960px;
   }
-  #nav-bar:checked ~.navbar {
+  .langkah-inner-data,
+  .langkah-2-inner-data {
+    margin-bottom: 3rem;
+    padding: 0px 15px;
+  }
+  .langkah-3-inner-data,
+  .langkah-4-inner-data {
+    margin-bottom: 3rem;
+    padding: 0px 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    display: none;
+  }
+  #nav-bar {
+    position: absolute;
+    /* top: -100px; */
+  }
+  #nav-bar:checked .navbar {
     display: block;
+    /* flex-direction: column; */
   }
   .nav-toggle span:after {
-    content: "<i class="fa-solid fa-bars"></i>";
+    content: "<i class=" fa-solid fa-bars "></i>";
   }
   #nav:checked ~ #navigation-links label {
-    background:    red;
-    span:after {
-      content: "\2715";
+    background: red;
+    span::after {
+      content: " <i class=" fa-solid fa-xmark "></i>";
     }
   }
-   /* .navbar{
+  .navigation-bar {
+    display: block;
+  }
+  .flex-class {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar {
     display: flex;
     flex-direction: column;
-        text-align: center;
-        width: 828px;
-        margin: auto; 
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .navbar ul {
+    margin: auto;
+    flex-direction: column;
+  }
+  .button {
+    flex-direction: column;
+  }
+  .container-3 {
+    max-width: 960px;
+  }
+  .span-data {
+    font-size: 19px;
+  }
 }
-     .navbar ul{
-        margin: auto;
-        flex-direction: column;
-   } */
+@media (min-width: 992px) {
+  #nav-bar {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+}
 @media (max-width: 992px) {
- /* .navbar{
-        display: flex;
-        flex-direction: column;
-            text-align: center;
-            width: 828px;
-            height: 254px;
-            margin: auto; 
-    }
-        .navbar ul{
-            margin: auto;
-            flex-direction: column;
-       }     */
-      
-     .icon {
-        display: block;
-      }  
+  .icon {
+    display: block;
+  }
   .logo img {
     width: 102px;
   }
@@ -95,14 +134,15 @@
   }
   .button-data {
     flex-wrap: wrap;
-}
-.toko-online-text, .produk-text{
+  }
+  .toko-online-text,
+  .produk-text {
     padding: 0px 15px;
-}
-.toko-online h3, .produk h3{
+  }
+  .toko-online h3,
+  .produk h3 {
     font-size: 20px;
-}
-
+  }
 }
 
 @media (max-width: 768px) {
@@ -110,27 +150,33 @@
     max-width: 720px;
   }
   .button-data {
-      flex-direction: row;
-    }
-    
-  .bg-blue {
-      /* gap: 8rem; */
     flex-direction: row;
   }
-  
+
+  .bg-blue {
+    /* gap: 8rem; */
+    flex-direction: row;
+  }
+
   .tempat {
-      width: 100%;
-    }
-    
-    .first-image {
-        width: 100%;
-    }
-    .container-2{
-        max-width: 720px;
-    }
-    .text{
-        margin: 0px 0px 80px;
-    }
+    width: 100%;
+  }
+
+  .first-image {
+    width: 100%;
+  }
+  .container-2,
+  .container-3 {
+    max-width: 720px;
+  }
+  .text,
+  .bg-third-portion-text {
+    margin: 0px 0px 80px;
+  }
+  .langkah-container,
+  .langkah-container-2 {
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 576px) {
@@ -171,24 +217,41 @@
     bottom: 25px;
     box-shadow: 0px 0px 5px;
   }
-
-  .button-data {
-    /* flex-wrap: wrap; */
-  }
-  .container-2{
+  .container-2 {
     max-width: 540px;
   }
-  .text h1{
+  .text h1 {
     font-size: 26px;
-}
-.toko-online-image, .toko-online-text{
+  }
+  .toko-online-image,
+  .toko-online-text {
     width: 100%;
-}
-.toko-online, .produk{
+  }
+  .toko-online,
+  .produk {
     gap: 3rem;
     flex-direction: column-reverse;
-}
-.produk-text, .produk-image{
+  }
+  .produk-text,
+  .produk-image {
     width: 100%;
-}
+  }
+  .container-3 {
+    max-width: 540px;
+  }
+  .bg-third-portion-text h2 {
+    font-size: 24px;
+  }
+  .langkah-container,
+  .langkah-container-2 {
+    flex-direction: column;
+  }
+  .langkah-inner-data,
+  .langkah-2-inner-data {
+    width: 100%;
+  }
+  .langkah-3-inner-data,
+  .langkah-4-inner-data {
+    width: 100%;
+  }
 }
