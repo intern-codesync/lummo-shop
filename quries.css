@@ -52,25 +52,23 @@
 }
 
 @media (max-width: 991px) {
-  .navbar {
-    display: none;
-  }
+
   #nav-bar {
     position: absolute;
     /* top: -100px; */
   }
-  #nav-bar:checked .navbar {
+  #nav-bar:checked,.icon {
     display: block;
     /* flex-direction: column; */
   }
   .nav-toggle span:after {
     content: "<i class=" fa-solid fa-bars "></i>";
   }
-  #nav:checked ~ #navigation-links label {
-    background: red;
-    span::after {
-      content: " <i class=" fa-solid fa-xmark "></i>";
-    }
+  #nav-bar:checked ~ .navbar {
+    display: flex!important;
+  }
+  .navbar{
+    display: none!important;
   }
   .navigation-bar {
     display: block;
@@ -102,9 +100,6 @@
   }
 }
 @media (min-width: 992px) {
-  #nav-bar {
-    display: none;
-  }
   .icon {
     display: none;
   }
