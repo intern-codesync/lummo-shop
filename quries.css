@@ -62,7 +62,6 @@
   #nav-bar:checked ~ .navbar {
     display: block;
   }
-
   .navigation-bar {
     display: block;
   }
