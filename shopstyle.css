@@ -127,7 +127,7 @@ ul li {
   width: 100%;
 }
 .bg-blue-container {
-  max-width: 1270px;
+  max-width: 1320px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -193,7 +193,7 @@ ul li {
   bottom: 35px;
 }
 .container-2 {
-  max-width: 1270px;
+  max-width: 1320px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -230,14 +230,16 @@ ul li {
 }
 .toko-online-image {
   width: 50%;
-  /* padding: 0 15px; */
+  padding: 0 15px;
 }
 .toko-online h3 {
+  line-height: 2.5rem;
   font-size: 30px;
   color: #374151;
   font-family: Circular Std Book;
 }
 .toko-online span {
+  line-height: 1.5rem;
   font-size: 16px;
   color: #374151;
   font-family: Circular Std Book;
@@ -250,6 +252,7 @@ ul li {
   margin: 0px 0px 40px;
 }
 .produk-text {
+  line-height: 1.5rem;
   width: 50%;
   padding: 0px 48px;
 }
