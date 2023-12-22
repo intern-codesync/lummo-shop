@@ -1,18 +1,26 @@
 @media (max-width: 1400px) {
   .tempat {
     width: 50%;
-    padding: 0px 16px;
+    /* padding: 0px 16px; */
   }
-
+  .produk-image, .toko-online-image{
+    padding: 0px 15px;
+  }
+  .toko-online-text h3, .produk-text h3{
+    width: 93%;
+  }
+  .text, .bg-third-portion-text{
+    margin: 0px 167px 80px;
+  }
   .first-image {
     width: 50%;
   }
 
   .bg-blue-container {
-    max-width: 1320px;
+    max-width: 1140px;
   }
-  .container-2 {
-    max-width: 1320px;
+  .container-2, .container-3 {
+    max-width: 1140px;
   }
 
   .langkah-1-img,
@@ -24,7 +32,43 @@
     max-width: 370px;
   }
 }
-
+@media (max-width:1280px) {
+  .bg-blue-container, .container-2 {
+    max-width: 1140px;
+  }
+  .toko-online-image, .toko-online-text{
+    width: 48%;
+    line-height: 33px;
+  }
+  .bg-third-portion-text{
+    margin: 0px 77px 80px;
+  }
+  .produk-text, .produk-image{
+    width: 48%;
+    line-height: 30px;
+  }
+  .container-3 {
+    max-width: 1140px;
+  }
+}
+@media (max-width:1200px) {
+  .bg-blue-container, .container-2 {
+    max-width: 960px;
+  }
+  .container-3{
+    max-width: 960px;
+  }
+  .text h1{
+    font-weight: inherit;
+  }
+  .text, .bg-third-portion-text{
+    margin: 0px 77px 80px;
+    max-width: 775px;
+  }
+   h3  {
+    font-weight: inherit;
+  }
+}
 @media (max-width: 1024px) {
   .bg-blue-container {
     max-width: 960px;
@@ -84,9 +128,6 @@
   .button {
     flex-direction: column;
   }
-  .container-3 {
-    max-width: 960px;
-  }
   .span-data {
     font-size: 19px;
   }
@@ -100,18 +141,33 @@
   .logo img {
     width: 102px;
   }
+  .dropdown-content{
+    position: static;
+  }
   .navbar{
+    width: 174px;
     display: none;
+  }
+  .tempat h1{
+    line-height: 2.875rem;
   }
   .tempat, .first-image {
     width: 48%;
   }
-
   .tempat h1 {
     font-size: 37px;
   }
+  .text, .bg-third-portion-text{
+    margin: 0px 0px 80px;
+  }
   .bg-blue-container {
-    max-width: 930px;
+    max-width: 720px;
+  }
+  .container-2{
+    max-width: 720px;
+  }
+  .container-3{
+    max-width: 720px;
   }
   .button-data {
     flex-wrap: wrap;
@@ -122,41 +178,66 @@
   }
   .toko-online h3,
   .produk h3 {
+    font-weight: inherit;
     font-size: 20px;
   }
 }
 
 @media (max-width: 768px) {
   .bg-blue-container {
-    max-width: 720px;
+    max-width: 540px;
   }
   .button-data {
     flex-direction: row;
   }
 
   .bg-blue {
-    /* gap: 8rem; */
-    flex-direction: row;
+    gap: 8rem;
+    flex-direction: column;
   }
-
+  .tempat h1{
+    line-height: 2.875rem;
+  }
   .tempat {
     width: 100%;
   }
-
   .first-image {
     width: 100%;
   }
   .container-2,
   .container-3 {
-    max-width: 720px;
+    max-width: 540px;
   }
   .text,
   .bg-third-portion-text {
     margin: 0px 0px 80px;
   }
+  .toko-online, .produk{
+    flex-direction: column-reverse;
+    gap: 3rem;
+    text-align: center;
+  }
+  .toko-online-image, .produk-image{
+    width: 100%;
+  }
+  .toko-online-text,
+  .produk-text {
+    width: 100%;
+    padding: 0px 15px;
+  }
   .langkah-container,
   .langkah-container-2 {
+    flex-direction: column;
     align-items: flex-start;
+  }
+  .langkah-inner-data, .langkah-2-inner-data{
+    width: 100%;
+  }
+  .langkah-3-inner-data, .langkah-4-inner-data{
+    width: 100%;
+  }
+  .text h1, h3{
+    font-weight: inherit;
   }
 }
 
@@ -165,10 +246,11 @@
     max-width: 540px;
   }
   .tempat {
-    padding: 0px 15px;
+    padding: 0px ;
   }
 
   .tempat h1 {
+    width: 88%;
     line-height: 2.875rem;
   }
 
@@ -198,7 +280,7 @@
   .toko-online-image,
   .toko-online-text {
     width: 100%;
-    padding: 0px;
+    /* padding: 0px 15px; */
     text-align: center;
   }
   .toko-online,
@@ -217,6 +299,7 @@
   }
   .bg-third-portion-text h2 {
     font-size: 24px;
+    font-weight: inherit;
   }
   .langkah-container,
   .langkah-container-2 {
