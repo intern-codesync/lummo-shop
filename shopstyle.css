@@ -105,7 +105,7 @@ ul li {
   padding: 4px 0px;
 }
 .dropdown-content a {
-    color: #374151;
+  color: #374151;
   padding: 10px 20px;
   text-decoration: none;
   display: block;
@@ -136,12 +136,11 @@ ul li {
   margin-right: auto;
   margin-left: auto;
 }
-.dropdown i{
+.dropdown i {
   margin-left: 0.5rem;
 }
 .bg-blue {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   padding: 145px 0px 50px;
 }
@@ -151,7 +150,7 @@ ul li {
   display: flex;
   flex-direction: column;
 }
-.tempat span{
+.tempat span {
   font-size: 15px;
   line-height: 1.5rem;
 }
@@ -195,14 +194,14 @@ ul li {
 }
 .from-now::after {
   content: "Gratis";
-      font-size: .875rem;
+  font-size: 0.875rem;
   background-color: #ffffff;
   padding: 2px 8px;
   color: #311b92;
   position: absolute;
   border-radius: 10px;
   bottom: 42px;
-    box-shadow: 0px 0px 5px;
+  box-shadow: 0px 0px 5px;
 }
 .container-2 {
   max-width: 1320px;
@@ -214,7 +213,16 @@ ul li {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-.text,.bg-third-portion-text {
+.container-3 {
+  max-width: 1320px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.text,
+.bg-third-portion-text {
   margin: 0px 257px 80px;
   text-align: center;
 }
@@ -245,7 +253,7 @@ ul li {
   padding: 0 15px;
 }
 .toko-online h3 {
-  line-height: 2.80rem;
+  line-height: 2.8rem;
   font-size: 30px;
   color: #374151;
   font-family: Circular Std Book;
@@ -256,7 +264,8 @@ ul li {
   color: #374151;
   font-family: Circular Std Book;
 }
-.toko-online-inner-padding,.produk-text-inner-padding{
+.toko-online-inner-padding,
+.produk-text-inner-padding {
   padding: 0rem 3rem;
 }
 .produk {
@@ -289,14 +298,6 @@ ul li {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.container-3 {
-  max-width: 1320px;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
 .bg-third-portion-text h2 {
   font-size: 36px;
   color: #374151;
@@ -306,10 +307,14 @@ ul li {
   font: 16px;
   color: #374151;
 }
-.langkah-container, .langkah-container-2 {
+.langkah-container,
+.langkah-container-2 {
   display: flex;
 }
-.langkah-1-text, .langkah-2-text,.langkah-3-text, .langkah-4-text{
+.langkah-1-text,
+.langkah-2-text,
+.langkah-3-text,
+.langkah-4-text {
   color: #374151;
   max-width: 500px;
   display: flex;
@@ -317,7 +322,10 @@ ul li {
   text-align: center;
   flex-direction: column;
 }
-.langkah-1-img,.langkah-2-img,.langkah-3-img,.langkah-4-img{
+.langkah-1-img,
+.langkah-2-img,
+.langkah-3-img,
+.langkah-4-img {
   margin-left: auto;
   margin-right: auto;
   max-width: 370px;
@@ -327,10 +335,13 @@ ul li {
   margin: 0px 0px 12px;
   font-size: 30px;
 }
-.span-data-line-height{
+.span-data-line-height {
   line-height: 1.5rem;
 }
-.langkah-inner-data, .langkah-2-inner-data,.langkah-3-inner-data, .langkah-4-inner-data {
+.langkah-inner-data,
+.langkah-2-inner-data,
+.langkah-3-inner-data,
+.langkah-4-inner-data {
   width: 50%;
   display: flex;
   align-items: center;
@@ -343,7 +354,67 @@ ul li {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+.bg-blue-cards{
+  padding: 70px 0px;
+}
+.card-container{
+  max-width: 1320px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
 
 
+
+
+
+/* .portion-6{
+  padding-top: 80px;
+    padding-bottom: 80px;
+}
+.container-5{
+  max-width: 1320px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.atm-card-flex{
+  margin: 0px 0px 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.banyak{
+  width: 50%;
+}
+.banyak-image{
+  width: 50%;
+}
+.banyak h3{
+  margin: 0px 0px 20px;
+  font-size: 30px;
+} */
+
+
+
+
+
+.container-6{
+  text-align: center;
+  max-width: 1320px;
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.select-options h2{
+  font-size: 36px;
+  margin: 0px 0px 64px;
+}
