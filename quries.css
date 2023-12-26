@@ -20,10 +20,6 @@
   .produk-image, .toko-online-image{
     padding: 0px 15px;
   }
-  .toko-online-text{}
-  .toko-online-text h3, .produk-text h3{
-    width: 93%;
-  }
   .text, .bg-third-portion-text{
     margin: 0px 167px 80px;
   }
@@ -53,14 +49,13 @@
     max-width: 1140px;
   }
   .toko-online-image, .toko-online-text{
-    width: 48%;
-    line-height: 33px;
+    width: 50%;
   }
   .bg-third-portion-text{
-    margin: 0px 77px 80px;
+    margin: 0px 167.5px 80px;
   }
   .produk-text, .produk-image{
-    width: 48%;
+    width: 50%;
     line-height: 30px;
   }
   .container-3 {
@@ -81,6 +76,9 @@
     margin: 0px 77px 80px;
     max-width: 775px;
   }
+  .tempat span{
+    font-size: 16px;
+  }
    h3  {
     font-weight: inherit;
   }
@@ -100,7 +98,24 @@
     width: 102px;
   }
   .tempat{
-    width: 45%;
+    width: 50%;
+  }
+  .tempat-inner{
+    width: 90%;
+  }
+  .from-now{
+    padding: 16px 30px;
+  }
+  .toko-online-inner-padding, .produk-text-inner-padding{
+    padding: 0px;
+  }
+  .toko-online h3, .produk h3{
+    font-size: 20px;
+    line-height: 1.5rem;
+  }
+  .span-data{
+    font-size: 19px;
+    line-height: 2rem;
   }
   .button-data{
     flex-wrap: wrap;
@@ -181,7 +196,13 @@
     line-height: 2.875rem;
   }
   .tempat, .first-image {
-    width: 48%;
+    width: 50%;
+  }
+  .tempat-inner{
+    width: 100%;
+  }
+  .from-now,.demo-schedule{
+    padding: 12px 29px;
   }
   .tempat h1 {
     font-size: 37px;
@@ -228,6 +249,9 @@
     padding-right: 2rem;
     line-height: 2.875rem;
   }
+  .text h1, h3{
+    font-size: 24px;
+  }
   .tempat {
     width: 100%;
   }
@@ -241,6 +265,9 @@
   .text,
   .bg-third-portion-text {
     margin: 0px 0px 80px;
+  }
+  .bg-third-portion-text h2{
+    font-size: 24px;
   }
   .toko-online, .produk{
     flex-direction: column-reverse;
@@ -272,13 +299,15 @@
 }
 
 @media (max-width: 576px) {
-  .bg-blue-container {
-    max-width: 575px;
+  .bg-blue-container, .container-3 {
+    max-width: 576px;
   }
   .tempat {
     padding: 0px ;
   }
-
+  .tempat span{
+    font-size: 15px;
+  }
   .tempat h1 {
     padding: 0px;
     width: 100%;
@@ -292,18 +321,17 @@
 
   .demo-schedule, .from-now {
     font-size: 0.8rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    padding: 8px 12px;
   }   
   .from-now::after {
-    right: -20px;
-    bottom: 25px;
+    padding: 0px 8px;
+    right: -15px;
+    bottom: 28px;
     box-shadow: 0px 0px 5px;
   }
   .container-2 {
-    max-width: 540px;
+    margin: 0px;
+    max-width: 576px;
   }
   .text h1 {
     font-size: 26px;
@@ -330,9 +358,6 @@
     width: 100%;
     padding: 0px;
     text-align: center;
-  }
-  .container-3 {
-    max-width: 540px;
   }
   .bg-third-portion-text h2 {
     font-size: 24px;

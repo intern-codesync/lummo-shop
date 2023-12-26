@@ -24,7 +24,7 @@ img {
 .navigation-bar {
   max-width: 1270px;
   color: white;
-  padding: 16px 32px;
+  padding: 16px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,17 +94,19 @@ ul li {
   display: block;
 }
 .dropdown-content {
+  overflow: hidden;
   display: none;
   position: absolute;
   background-color: #ffffff;
   min-width: 150px;
-  /* border-radius: 10px; */
+  border-radius: 10px;
   top: 37px;
   right: -7px;
+  padding: 4px 0px;
 }
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+    color: #374151;
+  padding: 10px 20px;
   text-decoration: none;
   display: block;
 }
@@ -134,22 +136,27 @@ ul li {
   margin-right: auto;
   margin-left: auto;
 }
+.dropdown i{
+  margin-left: 0.5rem;
+}
 .bg-blue {
   display: flex;
   /* justify-content: center; */
   align-items: center;
   padding: 145px 0px 50px;
 }
-.bg-blue img {
-  padding: 0 15px;
-}
 .tempat {
+  padding: 0px 15px;
   width: 50%;
   display: flex;
   flex-direction: column;
-  /* width: 435px; */
+}
+.tempat span{
+  font-size: 15px;
+  line-height: 1.5rem;
 }
 .tempat h1 {
+  width: 99%;
   line-height: 3.8rem;
   color: #aae900;
   font-size: 3.1rem;
@@ -158,6 +165,7 @@ ul li {
 }
 .first-image {
   width: 50%;
+  padding: 0px 15px;
 }
 .white-text {
   color: white;
@@ -165,7 +173,7 @@ ul li {
 }
 .demo-schedule {
   font-size: 1rem;
-  padding: 16px 30px;
+  padding: 16px 32px;
   color: #311b92;
   background-color: #ffffff;
   border: 0px solid;
@@ -185,12 +193,14 @@ ul li {
 }
 .from-now::after {
   content: "Gratis";
+      font-size: .875rem;
   background-color: #ffffff;
   padding: 2px 8px;
   color: #311b92;
   position: absolute;
   border-radius: 10px;
-  bottom: 35px;
+  bottom: 42px;
+    box-shadow: 0px 0px 5px;
 }
 .container-2 {
   max-width: 1320px;
@@ -202,7 +212,7 @@ ul li {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-.text {
+.text,.bg-third-portion-text {
   margin: 0px 257px 80px;
   text-align: center;
 }
@@ -213,6 +223,7 @@ ul li {
   color: #374151;
 }
 .text span {
+  line-height: 1.5rem;
   font-size: 16px;
   color: #374151;
   font-family: Circular Std Book;
@@ -225,15 +236,14 @@ ul li {
 }
 .toko-online-text {
   width: 50%;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 0px 15px;
 }
 .toko-online-image {
   width: 50%;
   padding: 0 15px;
 }
 .toko-online h3 {
-  line-height: 2.5rem;
+  line-height: 2.80rem;
   font-size: 30px;
   color: #374151;
   font-family: Circular Std Book;
@@ -243,6 +253,9 @@ ul li {
   font-size: 16px;
   color: #374151;
   font-family: Circular Std Book;
+}
+.toko-online-inner-padding,.produk-text-inner-padding{
+  padding: 0rem 3rem;
 }
 .produk {
   width: 100%;
@@ -254,12 +267,14 @@ ul li {
 .produk-text {
   line-height: 1.5rem;
   width: 50%;
-  padding: 0px 48px;
+  padding: 0px 15px;
 }
 .produk-image {
+  padding: 0px 15px;
   width: 50%;
 }
 .produk h3 {
+  line-height: 2.5rem;
   color: #374151;
   font-size: 30px;
   font-family: Circular Std Book;
@@ -280,10 +295,6 @@ ul li {
   margin-right: auto;
   margin-left: auto;
 }
-.bg-third-portion-text {
-  margin: 0px 257px 80px;
-  text-align: center;
-}
 .bg-third-portion-text h2 {
   font-size: 36px;
   color: #374151;
@@ -296,25 +307,28 @@ ul li {
 .langkah-container, .langkah-container-2 {
   display: flex;
 }
-.langkah-1-text, .langkah-2-text{
+.langkah-1-text, .langkah-2-text,.langkah-3-text, .langkah-4-text{
   color: #374151;
   max-width: 500px;
   display: flex;
+  align-items: center;
   text-align: center;
   flex-direction: column;
 }
-.langkah-3-text, .langkah-4-text {
-  display: flex;
-  color: #374151;
-  max-width: 500px;
-  text-align: center;
-  flex-direction: column;
+.langkah-1-img,.langkah-2-img,.langkah-3-img,.langkah-4-img{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 370px;
 }
 .span-data {
+  line-height: 2.85rem;
   margin: 0px 0px 12px;
   font-size: 30px;
 }
-.langkah-inner-data, .langkah-2-inner-data {
+.span-data-line-height{
+  line-height: 1.5rem;
+}
+.langkah-inner-data, .langkah-2-inner-data,.langkah-3-inner-data, .langkah-4-inner-data {
   width: 50%;
   display: flex;
   align-items: center;
@@ -322,15 +336,12 @@ ul li {
   margin-bottom: 3rem;
   padding: 0px 15px;
 }
-.langkah-3-inner-data, .langkah-4-inner-data {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 .bg-blue-cards {
   background-color: rgb(49 27 146);
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
+
+
+
