@@ -4,6 +4,9 @@
   .container-3 {
     max-width: 1320px;
   }
+  .container-4,.container-5,.card-container {
+    max-width: 1320px;
+  }
   .tempat h1 {
     width: 93%;
   }
@@ -33,7 +36,10 @@
 
   .bg-blue-container,
   .container-2,
-  .container-3 {
+  .container-3,.container-4 {
+    max-width: 1140px;
+  }
+  .container-5,.card-container{
     max-width: 1140px;
   }
   .langkah-1-img,
@@ -42,10 +48,13 @@
   .langkah-4-img {
     max-width: 370px;
   }
+  .card-text{
+    margin: 0px 0px 24px;
+  }
 }
 @media (max-width: 1280px) {
   .bg-blue-container,
-  .container-2 {
+  .container-2,.container-5 {
     max-width: 1140px;
   }
   .toko-online-image,
@@ -60,16 +69,16 @@
     width: 50%;
     line-height: 30px;
   }
-  .container-3 {
+  .container-3,.container-4,.card-container {
     max-width: 1140px;
   }
 }
 @media (max-width: 1200px) {
   .bg-blue-container,
-  .container-2 {
+  .container-2,.container-5 {
     max-width: 960px;
   }
-  .container-3 {
+  .container-3,.container-4,.card-container {
     max-width: 960px;
   }
   .text h1 {
@@ -86,12 +95,16 @@
   h3 {
     font-weight: inherit;
   }
+  .card-text{
+    margin: 0px 0px 24px;
+  }
+  
 }
 @media (max-width: 1024px) {
-  .bg-blue-container {
+  .bg-blue-container,.card-container {
     max-width: 960px;
   }
-  .container-2 {
+  .container-2,.container-4 {
     max-width: 960px;
   }
   .tempat h1 {
@@ -130,7 +143,7 @@
   .bg-third-portion-text {
     margin: 0px 77.5px 80px;
   }
-  .container-3 {
+  .container-3,.container-5 {
     max-width: 960px;
   }
   .langkah-inner-data,
@@ -219,13 +232,13 @@
   .bg-third-portion-text {
     margin: 0px 0px 80px;
   }
-  .bg-blue-container {
+  .bg-blue-container,.container-5 {
     max-width: 720px;
   }
-  .container-2 {
+  .container-2,.card-container {
     max-width: 720px;
   }
-  .container-3 {
+  .container-3,.container-4 {
     max-width: 720px;
   }
   .button-data {
@@ -240,10 +253,16 @@
     font-weight: inherit;
     font-size: 20px;
   }
+  .banyak h3{
+    font-size: 20px;
+  }
+  .card-text{
+    padding: 0px 5px;
+  }
 }
 
 @media (max-width: 768px) {
-  .bg-blue-container {
+  .bg-blue-container,.container-4,.card-container {
     max-width: 540px;
   }
   .button-data {
@@ -269,7 +288,7 @@
     width: 100%;
   }
   .container-2,
-  .container-3 {
+  .container-3,.container-5 {
     max-width: 540px;
   }
   .text,
@@ -311,11 +330,35 @@
   h3 {
     font-weight: inherit;
   }
+  .kata-mereka{
+    flex-direction: column;
+  }
+  .kata-mereka-image, .kata-mereka-text{
+    width: 100%;
+  }
+  .container-4 h2{
+    font-size: 24px;
+  }
+  .atm-card-flex{
+    flex-direction: column-reverse;
+  }
+  .atm-card-flex-2{
+    flex-direction: column-reverse;
+  }
+  .banyak-image,.banyak{
+    width: 100%;
+  }
+  .card-text h2{
+    font-size: 24px;
+  }
+  .flex-card{
+    overflow: scroll;
+  }
 }
 
 @media (max-width: 576px) {
   .bg-blue-container,
-  .container-3 {
+  .container-3,.container-5 {
     max-width: 576px;
   }
   .tempat {
@@ -346,7 +389,7 @@
     bottom: 28px;
     box-shadow: 0px 0px 5px;
   }
-  .container-2 {
+  .container-2,.container-4,.card-container {
     margin: 0px;
     max-width: 576px;
   }
@@ -394,6 +437,12 @@
   .langkah-3-inner-data,
   .langkah-4-inner-data {
     width: 100%;
+    padding: 0px;
+  }
+  .kata-mereka-image, .kata-mereka-text{
+    padding: 0px;
+  }
+  .banyak, .banyak-image{
     padding: 0px;
   }
 }
