@@ -445,4 +445,16 @@
   .banyak, .banyak-image{
     padding: 0px;
   }
+.flex-card{
+  justify-content: center;
+}  
+  .good{
+    display: none;
+  }
+  .card-circle{
+    display: flex;
+  }
+  .store{
+    max-width: 200px;
+  }
 }

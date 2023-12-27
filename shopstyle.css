@@ -379,6 +379,7 @@ ul li {
 }
 .flex-card{
   display: flex;
+  align-items: center;
 }
 .logo-store{
   gap: 0.5rem;
@@ -467,7 +468,15 @@ ul li {
   border-radius: 50%;
   background-color: rgb(156 163 175)
 }
-
+.card-circle{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: #6f5fb3;
+}
  .portion-6{
   padding-top: 80px;
     padding-bottom: 80px;
