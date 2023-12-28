@@ -7,6 +7,9 @@
   .container-4,.container-5,.card-container {
     max-width: 1320px;
   }
+  .container-7,.container-8,.container-6{
+max-width: 1320px;
+  }
   .tempat h1 {
     width: 93%;
   }
@@ -33,13 +36,15 @@
   .first-image {
     width: 50%;
   }
-
+.container-8,.container-6{
+  max-width: 1140px;
+}
   .bg-blue-container,
   .container-2,
   .container-3,.container-4 {
     max-width: 1140px;
   }
-  .container-5,.card-container{
+  .container-5,.card-container,.container-7{
     max-width: 1140px;
   }
   .langkah-1-img,
@@ -72,6 +77,9 @@
   .container-3,.container-4,.card-container {
     max-width: 1140px;
   }
+  .container-7,.container-8,.container-6{
+    max-width: 1140px;
+  }
 }
 @media (max-width: 1200px) {
   .bg-blue-container,
@@ -79,6 +87,9 @@
     max-width: 960px;
   }
   .container-3,.container-4,.card-container {
+    max-width: 960px;
+  }
+  .container-7,.container-8,.container-6{
     max-width: 960px;
   }
   .text h1 {
@@ -101,10 +112,10 @@
   
 }
 @media (max-width: 1024px) {
-  .bg-blue-container,.card-container {
+  .bg-blue-container,.card-container,.container-6 {
     max-width: 960px;
   }
-  .container-2,.container-4 {
+  .container-2,.container-4,.container-7 {
     max-width: 960px;
   }
   .tempat h1 {
@@ -143,7 +154,7 @@
   .bg-third-portion-text {
     margin: 0px 77.5px 80px;
   }
-  .container-3,.container-5 {
+  .container-3,.container-5,.container-8 {
     max-width: 960px;
   }
   .langkah-inner-data,
@@ -155,6 +166,9 @@
   .langkah-4-inner-data {
     margin-bottom: 3rem;
     padding: 0px 15px;
+  }
+  .mulai-text h3{
+    font-size: 24px;
   }
 }
 
@@ -232,13 +246,13 @@
   .bg-third-portion-text {
     margin: 0px 0px 80px;
   }
-  .bg-blue-container,.container-5 {
+  .bg-blue-container,.container-5,.container-7 {
     max-width: 720px;
   }
-  .container-2,.card-container {
+  .container-2,.card-container,.container-6 {
     max-width: 720px;
   }
-  .container-3,.container-4 {
+  .container-3,.container-4,.container-8 {
     max-width: 720px;
   }
   .button-data {
@@ -289,6 +303,9 @@
   }
   .container-2,
   .container-3,.container-5 {
+    max-width: 540px;
+  }
+  .container-7,.container-8,.container-6{
     max-width: 540px;
   }
   .text,
@@ -354,6 +371,18 @@
   .flex-card{
     overflow: scroll;
   }
+  .lomo-shop, .produk-list, .bantuan-list, .connect-list{
+    width: 50%;
+  }
+  .all-flex,.second-width{
+    width: 100%;
+  }
+  .select-dropdown{
+    flex-direction: column;
+  }
+  .select-options h2{
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -390,6 +419,10 @@
     box-shadow: 0px 0px 5px;
   }
   .container-2,.container-4,.card-container {
+    margin: 0px;
+    max-width: 576px;
+  }
+  .container-7,.container-8,.container-6{
     margin: 0px;
     max-width: 576px;
   }
@@ -456,5 +489,54 @@
   }
   .store{
     max-width: 200px;
+  }
+  .button-data-bg-blue{
+    flex-direction: column;
+    align-items: center;
+  }
+  .demo-schedule-bg-blue,.from-now-bg-blue{
+    font-size: .8rem;
+    padding-left: 0.875rem;
+    padding-right: 0.875rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+  .from-now-bg-blue::after{
+    bottom: 30px;
+    right: -20px;
+  }
+  .lomo-image{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lomo-shop{
+    padding: 0px;
+  }
+  .lomo-shop, .produk-list, .bantuan-list, .connect-list{
+    width: 100%;
+    padding: 0px;
+  }
+  ul li span{
+    display: none;
+  }
+  .flex-list{
+      display: flex;
+      justify-content: space-between;
+  }
+  .svg-image{
+    margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .hidden-text{
+    text-align: center;
+    display: block;
+  }
+  .lomo-shop-para{
+    display: none;
+  }
+  .all-flex,.second-width{
+    padding: 0px;
   }
 }

@@ -55,6 +55,9 @@ ul li {
   display: flex;
   flex-wrap: wrap;
 }
+.flex-row li{
+  color: #ffffff;
+}
 .list-padding {
   padding: 12px;
 }
@@ -360,7 +363,7 @@ ul li {
 .bg-blue-cards{
   padding: 70px 0px;
 }
-.card-container{
+.card-container,.container-7,.container-8{
    max-width: 1320px;
   width: 100%;
   padding-right: 15px;
@@ -514,7 +517,9 @@ ul li {
 
 
 
-/* .container-6{
+ .container-6{
+  padding-top: 80px;
+    padding-bottom: 80px;
   text-align: center;
   max-width: 1320px;
   width: 100%;
@@ -526,4 +531,158 @@ ul li {
 .select-options h2{
   font-size: 36px;
   margin: 0px 0px 64px;
-} */
+} 
+.select-dropdown{
+  display: flex;
+}
+.select-dropdown select{
+  margin-bottom: 1.25rem;
+  padding: 12px 24px;
+}
+.all-flex{
+  width: 50%;
+  padding: 0px 15px;
+}
+.second-width{
+  width: 50%;
+  padding: 0px 15px;
+}
+
+
+
+
+
+
+.portion-7{
+  background-color: #311b92;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+.mulai-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mulai-text h3{
+  max-width: 850px;
+  color: rgb(170 233 0);
+font-size: 36px;  
+margin: 0px 0px 4px;
+}
+.button-data-bg-blue{
+  display: flex;
+  gap: 1.25rem;
+  margin: 40px 0px 0px;
+}
+.demo-schedule-bg-blue{
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 16px 32px;
+  color: #311b92;
+  background-color: #ffffff;
+  border: 0px solid;
+  border-radius: 5px;
+}
+.from-now-bg-blue {
+  cursor: pointer;
+  z-index: 1;
+  font-size: 1rem;
+  padding: 16px 32px;
+  color: #311b92;
+  background-color: #aae900;
+  border: 0px solid;
+  border-radius: 5px;
+  position: relative;
+  font-family: Circular Std Book;
+}
+.from-now-bg-blue::after {
+  content: "Gratis";
+  font-size: 0.875rem;
+  background-color: #ffffff;
+  padding: 2px 8px;
+  color: #311b92;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 42px;
+  box-shadow: 0px 0px 5px;
+}
+.portion-8{
+  padding: 70px 0px;
+  background-color: rgb(238 242 255);
+}
+.container-8{
+  text-align: start;
+}
+.lomo-image{
+  max-width: 150px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 40px;
+}
+.svg-image{
+  max-width: 134px;
+}
+.lumo-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.lomo-shop,.produk-list,.bantuan-list,.connect-list{
+  width: 25%;
+  padding: 0px 15px;
+  line-height: 25px;
+}
+.produk-list-inner{
+  color: rgb(49 27 146);
+  display: inline-block;
+  margin: 0px 0px 20px;
+  font-size: 1.25rem;
+}
+ul li{
+  margin: 0px 0px 12px;
+  font-family: Circular Std Book;
+    color: #374151;
+}
+.hidden-text{
+  color: rgb(111 95 179);
+  display: none;
+}
+.lomo-shop-para{
+  color: rgb(111 95 179);
+}
+.width{
+  background-color: rgb(234 232 244);
+  margin-bottom: 1.25rem;
+  border-radius: 4px;
+  padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  display: flex;
+    flex-direction: column;
+  border: 1px solid;
+}
+.content-icon-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown-inner{
+  max-width: 80%;
+  font-size: 15px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+#dropdown-ada:checked~.pertama{
+  display: block;
+  height: 200px;
+}
+.pertama{
+  transition: all .5s ease;
+  overflow: hidden;
+  height: 0;
+}
+#dropdown-ada:checked,.good{
+  /* height: 0px; */
+  width: 100%;
+
+}
