@@ -402,17 +402,6 @@ ul li {
 .logo-store-image img{
   border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
 .portion-5{
   padding-top: 100px;
     padding-bottom: 100px;
@@ -470,6 +459,10 @@ ul li {
   width: 32px;
   border-radius: 50%;
   background-color: rgb(156 163 175)
+}
+.arrow-icon{
+  color: white;
+  cursor: pointer;
 }
 .card-circle{
   display: none;
@@ -624,6 +617,10 @@ margin: 0px 0px 4px;
 .svg-image{
   max-width: 134px;
 }
+.svg{
+  color: #311b92;
+  cursor: pointer;
+}
 .lumo-flex{
   display: flex;
   flex-wrap: wrap;
@@ -639,7 +636,20 @@ margin: 0px 0px 4px;
   margin: 0px 0px 20px;
   font-size: 1.25rem;
 }
-ul li{
+.produk-list ul li{
+  cursor: pointer;
+  margin: 0px 0px 12px;
+  font-family: Circular Std Book;
+    color: #374151;
+}
+.bantuan-list ul li{
+  cursor: pointer;
+  margin: 0px 0px 12px;
+  font-family: Circular Std Book;
+    color: #374151;
+}
+.connect-list ul li{
+  cursor: pointer;
   margin: 0px 0px 12px;
   font-family: Circular Std Book;
     color: #374151;
@@ -660,6 +670,7 @@ ul li{
   display: flex;
     flex-direction: column;
   border: 1px solid;
+  border-color: rgb(173 164 211);
 }
 .content-icon-flex{
   display: flex;
@@ -667,6 +678,9 @@ ul li{
   align-items: center;
 }
 .dropdown-inner{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
   max-width: 80%;
   font-size: 15px;
   padding-top: 0.75rem;
@@ -676,13 +690,41 @@ ul li{
   display: block;
   height: 200px;
 }
-.pertama{
+#Apakah-main:checked~.Apakah{
+  display: block;
+  height: 200px;
+}
+#bagaimana:checked~.cara{
+  display: block;
+  height: 200px;
+}
+#dropdown-fourth:checked~.kami{
+  display: block;
+  height: 200px;
+}
+#dropdown-fifth:checked~.lumo-shop-akan{
+  display: block;
+  height: 200px;
+}
+#dropdown-sixth:checked~.fitur{
+  display: block;
+  height: 200px;
+}
+.pertama,.Apakah,.cara,.kami{
   transition: all .5s ease;
   overflow: hidden;
   height: 0;
+  font-size: 12px;
+}
+.lumo-shop-akan,.fitur{
+  transition: all .5s ease;
+  overflow: hidden;
+  height: 0;
+  font-size: 12px;
+ 
 }
 #dropdown-ada:checked,.good{
   /* height: 0px; */
-  width: 100%;
+  /* width: 100%; */
 
 }

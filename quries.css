@@ -369,7 +369,7 @@ max-width: 1320px;
     font-size: 24px;
   }
   .flex-card{
-    overflow: scroll;
+    overflow: hidden;
   }
   .lomo-shop, .produk-list, .bantuan-list, .connect-list{
     width: 50%;
@@ -479,6 +479,7 @@ max-width: 1320px;
     padding: 0px;
   }
 .flex-card{
+  align-items: center;
   justify-content: center;
 }  
   .good{
