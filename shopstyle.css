@@ -1,6 +1,6 @@
 @font-face {
   font-family: Circular Std Book;
-  src: url(/assets/fonts/Circular\ Std\ Book.ttf);
+  src: url(./assets/fonts/Circular\ Std\ Book.ttf);
 }
 *{
   margin: 0;
