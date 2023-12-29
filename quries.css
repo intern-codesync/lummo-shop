@@ -178,10 +178,12 @@ max-width: 1320px;
   }
   #nav-bar:checked,
   .icon {
+    transition: all .5s ease;
     display: block;
   }
   #nav-bar:checked ~ .navbar {
     display: block;
+    
   }
   .navigation-bar {
     display: block;

@@ -710,21 +710,15 @@ margin: 0px 0px 4px;
   display: block;
   height: 200px;
 }
-.pertama,.Apakah,.cara,.kami{
-  transition: all .5s ease;
+  .pertama,.Apakah,.cara,.kami{
+    transition: all .5s ease;
+    overflow: hidden;
+    height: 0;
+    font-size: 12px;
+  }
+  .lumo-shop-akan,.fitur{
+    transition: all .5s ease;
   overflow: hidden;
   height: 0;
-  font-size: 12px;
-}
-.lumo-shop-akan,.fitur{
-  transition: all .5s ease;
-  overflow: hidden;
-  height: 0;
-  font-size: 12px;
- 
-}
-#dropdown-ada:checked,.good{
-  /* height: 0px; */
-  /* width: 100%; */
-
+  font-size: 12px; 
 }
